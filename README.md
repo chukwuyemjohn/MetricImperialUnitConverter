@@ -28,6 +28,3 @@ The code then defines event listener for the "Convert" button. When the button i
 
 [See live version](https://mcoverter.netlify.app/)
 
-Installation
-
-To use this calculator on your own website, simply copy and paste the HTML and JavaScript code into your web page. You can customize the appearance of the calculator by modifying the CSS styles.
