@@ -41,12 +41,14 @@ function convertToPound(num){
     return num / 2.204
 }
 
+/* Adding eventlistener */
 
 btnEl.addEventListener('click',function(){
     
    const inputValue = parseFloat( userInputEl.value)
 
     /* error handling */
+    
    if(isNaN(inputValue) || inputValue < 0 || inputValue === 0){
     alert(" please enter a positive number")
     return 
