@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@400;700;800&family=Mulish:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&family=Orbitron:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="main--section">
+            <div class="main--header">
+                <h3 class="main--heading">
+                    Metric/Imperial Unit Conversion
+                </h3>
+                <div class="unit--content">
+                    <h4 id="unit">Enter a Number:</h4>
+                    <input type="number" id="userinput-el">
+                </div>
+                <button id="btn--converter">
+                    Convert
+                </button>
+            </div>
+            <section class="convert--section">
+            <div class="unit--container" >
+                <p class="metrics">
+                    Length (Meter/Feet)
+                </p>
+                <p id="length-el"  
+                ></p>
+            </div>
+
+            <div class="unit--container">
+                <p class="metrics">
+                   Volume (Liters/Gallons)
+
+                </p>
+                <p id="volume-el" ></p>
+            </div>
+
+            <div class="unit--container">
+                <p class="metrics">
+                   Mass (Kilograms/Pounds)
+                </p>
+                <p id="mass-el" ></p>
+            </div>
+            </section>
+
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
